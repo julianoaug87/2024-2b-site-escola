@@ -1,56 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
 *{
- margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 :root{
---preto: #000000;
---azul-escuro:#14213d;
---cinza:#e5e5e5;
---fonte-texto: "Montserrat", sans-serif;
---fonte-titulo:"Madimi One", sans-serif;
-
+    --azul: #003049;
+    --vermelho: #D62828;
+    --amarelo-queimado: #F77F00;
+    --amarelo: #FCBF49;
+    --branco: #f5f5f5;
+    --preto: #000000;
+    --fonte-texto: "Truculenta", sans-serif;
+    --fonte-titulo: "Ojuju", sans-serif;
 }
+
+
 .cabecalho{
-  background-color: var(--azul);
-  color: var(--branco);
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 2em;
+    background-color: var(--azul);
+    color: var(--amarelo-queimado);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
 }
 
-.cabecalho-imagem{ 
-width: 5%;
-border-radius: 100%;
-margin:1em;
+.cabecalho-imagem{
+    width: 5%;
+    border-radius: 100%;
+    margin: 1em;
 }
 
 .cabecalho-lista-link{
-  text-decoration: nome;
-  color:white;
-  margin-right: 1.5em;
-  font-size: 1.5em;
+    text-decoration: none;
+    color: var(--amarelo-queimado);
+    margin-right: 1.5em;
+    font-size: 1.5em;
 }
+
 .escola{
-  background-color: rgba(139, 128, 128, 0.849);
-  color:black;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  padding: 32px 0;
-  font-family: var(--fonte-texto);
-  }  
+    background-color: var(--branco);
+    color: var(--preto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    font-family: var(--fonte-texto);
+}
 
-  .escola-texto-titulo{
+.escola-texto-titulo{
     padding: 24px 0;
-    font-family:var(--fonte-titulo);
-  }
+    font-family: var(--fonte-titulo);
+}
 
-  .escola-imagem{
+.escola-imagem{
     width: 25%;
-
-  }
+}
